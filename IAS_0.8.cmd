@@ -153,7 +153,7 @@ if defined activate goto _activate
 :MainMenu
 chcp 65001
 cls
-title  IDM Activation Script 0.8 - @ModByPiash
+title  IDM Activation Script
 mode 65, 25
 
 :: Check firewall status
@@ -180,8 +180,6 @@ if not %_ena%==3 if not %_dis%==3 (
 set _status=Status_Unclear
 set _col=%_Yellow%
 )
-
-call :_color2 %_White% "        " %_Green% "  Create By Piash"
 echo:          _____________________________________________   
 echo: 
 echo:          [1] 激活IDM                                
