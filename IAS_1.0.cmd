@@ -180,6 +180,8 @@ if not %_ena%==3 if not %_dis%==3 (
 set _status=Status_Unclear
 set _col=%_Yellow%
 )
+echo: 
+echo: 
 echo:          _____________________________________________   
 echo: 
 echo:          [1] 激活IDM                                
