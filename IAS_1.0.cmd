@@ -366,12 +366,12 @@ exit /b
 cls
 echo:
 echo:
-echo Going Home...
+echo github无法连接自行百度查询
 echo:
 echo:
-timeout /t 3
+timeout /t 5
 
-start https://github.com/lstprjct/IDM-Activation-Script
+start https://github.com/fgr178707/IDM
 goto MainMenu
 
 ::========================================================================================================================================
@@ -869,7 +869,7 @@ _________________________________
 
    IDM Activation Script
    
-   Homepage:	https://github.com/lstprjct/IDM-Activation-Script
+   Homepage:	https://github.com/fgr178707/IDM
    
    Telegram:	https://t.me/ModByPiash
 
