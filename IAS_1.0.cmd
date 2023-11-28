@@ -285,8 +285,8 @@ echo:
 set _error=
 
 if not exist "!IDMan!" (
-call :_color %Red% "IDM [Internet Download Manager] is not Installed."
-echo You can download it from  https://www.internetdownloadmanager.com/download.html
+call :_color %Red% "未安装 IDM [Internet Download Manager]."
+echo 您可以从  https://www.internetdownloadmanager.com/download.html  下载
 goto done
 )
 
@@ -301,7 +301,7 @@ call :_color %Red% "Unable to connect internetdownloadmanager.com, aborting..."
 goto done
 )
 
-echo Internet is connected.
+echo 互联网已连接...
 
 %idmcheck% && taskkill /f /im idman.exe
 
@@ -318,7 +318,7 @@ if defined _derror call :f_reset & goto done
 
 set lockedkeys=
 set "_action=call :lock_key"
-echo Locking registry keys...
+echo 正在锁定Windows注册表项...
 echo:
 call :action
 
@@ -326,9 +326,9 @@ if not defined _error if [%lockedkeys%] GEQ [7] (
 echo:
 echo %line%
 echo:
-call :_color %Green% "IDM is successfully activated."
+call :_color %Green% "IDM下载器 已成功激活！感谢使用!"
 echo:
-call :_color %Gray% "If fake serial screen appears, run activation option again, after that it wont appear."
+call :_color %Gray% "如果盗版提示出现，再次运行激活选项，之后它就不会出现了"
 goto done
 )
 
@@ -346,7 +346,7 @@ timeout /t 3
 exit /b
 )
 
-call :_color %_Yellow% "Press any key to return..."
+call :_color %_Yellow% "按任意键返回..."
 pause >nul
 goto MainMenu
 
@@ -417,7 +417,7 @@ echo:
 set /p name="What is the name to be registered?"
 
 echo:
-echo Applying registration details...
+echo 应用注册详细信息...
 echo:
 
 If not defined name set name=Piash
@@ -428,7 +428,7 @@ set "reg=HKCU\SOFTWARE\DownloadManager /v Email /t REG_SZ /d "info@tonec.com"" &
 set "reg=HKCU\SOFTWARE\DownloadManager /v Serial /t REG_SZ /d "FOX6H-3KWH4-7TSIN-Q4US7"" & call :_rcont
 
 echo:
-echo Triggering a few downloads to create certain registry keys, please wait...
+echo 正在触发一些下载以创建某些注册表项，请稍候...
 
 set "file=%_temp%\temp.png"
 set _fileexist=
@@ -463,7 +463,7 @@ if not [%foundkeys%] GEQ [7] set _derror=1
 
 echo:
 if not defined _derror (
-echo Required registry keys were created successfully.
+echo  已成功创建所需的注册表项
 ) else (
 if not defined _fileexist call :_color %Red% "Unable to download files with IDM."
 call :_color %Red% "Failed to create required registry keys."
@@ -494,7 +494,7 @@ goto :Check_file
 :delete_queue
 
 echo:
-echo Deleting registry keys...
+echo 正在删除注册表项...
 echo:
 
 for %%# in (
@@ -520,7 +520,7 @@ exit /b
 :add_key
 
 echo:
-echo Adding registry key...
+echo 添加注册表...
 echo:
 
 set "reg="%HKLM%" /v "AdvIntDriverEnabled2""
@@ -531,7 +531,7 @@ reg add %reg% /t REG_DWORD /d "1" /f %nul%
 
 if [%errorlevel%]==[0] (
 set "reg=%reg:"=%"
-echo Added - !reg!
+echo 添加 - !reg!
 ) else (
 set _error=1
 set "reg=%reg:"=%"
@@ -605,7 +605,7 @@ reg delete %reg% /f %nul%
 
 if [%errorlevel%]==[0] (
 set "reg=%reg:"=%"
-echo Deleted - !reg!
+echo 删除 - !reg!
 ) else (
 set "reg=%reg:"=%"
 set _error=1
@@ -624,7 +624,7 @@ reg delete %reg% /f %nul%
 
 if not [%errorlevel%]==[0] (
 set "reg=%reg:"=%"
-echo Locked - !reg!
+echo 锁定 - !reg!
 set /a lockedkeys+=1
 ) else (
 set _error=1
