@@ -414,7 +414,7 @@ exit /b
 :register_IDM
 
 echo:
-set /p name="What is the name to be registered?"
+set /p name="需要注册的名称是什么？(敲一下回车就好了)"
 
 echo:
 echo 应用注册详细信息...
