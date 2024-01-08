@@ -167,12 +167,12 @@ if /i %%b equ 0x1 (set /a _ena+=1) else (set /a _dis+=1)
 )
 
 if %_ena%==3 (
-set _status=防火墙已开启
+set _status=Enabled
 set _col=%_Green%
 )
 
 if %_dis%==3 (
-set _status=防火墙已关闭
+set _status=Disabled
 set _col=%_Red%
 )
 
