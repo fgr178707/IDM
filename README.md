@@ -3,8 +3,11 @@
 ### 方法 1 - PowerShell（推荐）
 
 - 在 Windows 8.1/10/11 上，右键单击 Windows 开始菜单，然后选择 PowerShell 或终端（不是 CMD）。
-- 复制粘贴以下代码并按 Enter\
-     `iwr -useb https://raw.githubusercontent.com/fgr178707/IDM/main/IAS.ps1 | iex`
+- 复制粘贴以下代码并按 Enter
+```
+iwr -useb https://raw.githubusercontent.com/fgr178707/IDM/main/IAS.ps1 | iex
+```
+
 -   您将看到激活选项，然后按照屏幕上的说明进行操作。
 -   就这样。
 
