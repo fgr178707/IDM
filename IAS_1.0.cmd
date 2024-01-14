@@ -383,13 +383,13 @@ goto MainMenu
 echo:
 echo %line%
 echo:
-call :_color %Red% "Error found, resetting IDM activation..."
+call :_color %Red% "发现错误，正在重置 IDM 激活..."
 set "_action=call :delete_key"
 call :reset
 echo:
 echo %line%
 echo:
-call :_color %Red% "Failed to activate IDM."
+call :_color %Red% "激活IDM失败。"
 exit /b
 
 ::========================================================================================================================================
@@ -465,9 +465,9 @@ echo:
 if not defined _derror (
 echo  已成功创建所需的注册表项
 ) else (
-if not defined _fileexist call :_color %Red% "Unable to download files with IDM."
-call :_color %Red% "Failed to create required registry keys."
-call :_color %Magenta% "Try again - disable Windows firewall with script options - check Read Me."
+if not defined _fileexist call :_color %Red% "无法使用IDM下载文件。"
+call :_color %Red% "无法创建所需的注册表项。"
+call :_color %Magenta% "再试一次 - 使用脚本选项禁用 Windows 防火墙 - 检查“自述文件”。"
 )
 
 echo:
