@@ -1,3 +1,15 @@
+# 注意事项
+
+**本人不敢保，破解补丁.exe文件不带毒**
+
+**本人不敢保，破解补丁.exe文件不带毒**
+
+**本人不敢保，破解补丁.exe文件不带毒**
+
+如果你就想用软件激活的话，当前页面拉到最下面有软件激活步骤
+
+# 其他
+
 用完破解补丁软件再用命令重新激活的话会删除很多无用注册表
 
 目前统计的会删除252个无用注册表
@@ -258,7 +270,24 @@ HKCU\Software\Classes\Wow6432Node\CLSID\{fa3cf016-7cf9-41ee-b8e2-d3214bbd3a29}
 HKCU\Software\Classes\Wow6432Node\CLSID\{fce2c590-a43e-48a9-8b84-8691e68f0b5a}
 HKCU\Software\Classes\Wow6432Node\CLSID\{fda24718-196f-4154-a147-ecf2e91e80a1}
 HKCU\Software\Classes\Wow6432Node\CLSID\{fde178e1-6387-4a7a-8b8d-4beda6982685}
-HKCU\Software\Classes\Wow6432Node\CLSID\{fe3af996-87ba-45a0-86d7-6a1e989181b1}
-HKCU\Software\Classes\Wow6432Node\CLSID\{fed1e45a-01f6-46b2-99e1-0ef4484b48cb}
-HKCU\Software\Classes\Wow6432Node\CLSID\{fee3c0af-cbe6-42f8-8af5-5bfeae8b691b}
 ```
+
+# 破解步骤
+
+1、退出IDM
+
+2、在IDM桌面快捷方式上右击，选择“打开文件所在的位置”
+
+3、把破解补丁拷贝到刚才打开的那个位置里
+
+4、管理员身份运行破解补丁，点击破解补丁下方的“Patch”按钮
+
+5、搞定！
+
+# 用户协议(下载软件后自动同意该协议):
+
+## 1、如果使用软件激活，发现软件有后门以及病毒，以及任何资产流失，本作者不负任何责任
+
+## 2、当前文件夹内所有软件都是通过网络查找
+
+## 3、请在下载后24小时内删除
