@@ -13,6 +13,6 @@ iwr -useb https://raw.githubusercontent.com/fgr178707/IDM/main/IAS.ps1 | iex
 
 ### 方法 2 - 传统
 
-- 从 [GitHub](https://github.com/fgr178707/IDM/blob/main/IAS_1.0.cmd)
+- 从 [GitHub](https://raw.kkgithub.com/fgr178707/IDM/main/IAS_2.0.cmd)
 - 您将看到激活选项，然后按照屏幕上的说明进行操作。
 - 就这样。
