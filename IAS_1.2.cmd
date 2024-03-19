@@ -360,8 +360,8 @@ echo:
 call :_color2 %_White% "             " %_Green% "Create By Piash"
 echo:            ___________________________________________________ 
 echo:                                                               
-echo:               [1] 激活
-echo:               [2] 冻结试用
+echo:               [1] 冻结试用
+echo:               [2] 激活(已失效)
 echo:               [3] 重置激活/试用
 
 echo:               _____________________________________________   
@@ -379,8 +379,8 @@ if %_erl%==6 exit /b
 if %_erl%==5 start https://github.com/fgr178707/IDM & goto MainMenu
 if %_erl%==4 start https://www.internetdownloadmanager.com/download.html & goto MainMenu
 if %_erl%==3 goto _reset
-if %_erl%==2 (set frz=1&goto :_activate)
-if %_erl%==1 (set frz=0&goto :_activate)
+if %_erl%==2 (set frz=0&goto :_activate)
+if %_erl%==1 (set frz=1&goto :_activate)
 goto :MainMenu
 
 ::========================================================================================================================================
