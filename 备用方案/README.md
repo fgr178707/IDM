@@ -291,3 +291,8 @@ HKCU\Software\Classes\Wow6432Node\CLSID\{fde178e1-6387-4a7a-8b8d-4beda6982685}
 ## 2、当前文件夹内所有软件都是通过网络查找
 
 ## 3、请在下载后24小时内删除
+
+# 密钥注册表位置
+```
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Internet Download Manager
+```
