@@ -25,6 +25,6 @@
 
 2. 管理员模式运行IDM_6.4x_Crack_v19.7.exe
 
-3. 点击 Crack 变成 Not Patched 点击 Finish 即可
+3. 点击 Close 变成  Finish 点击 Finish 即可
 
 4. 搞定！
