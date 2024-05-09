@@ -22,9 +22,12 @@
 # 破解步骤
 
 1. 安装 IDM
-
 2. 管理员模式运行IDM_6.4x_Crack_v19.7.exe
-
 3. 点击 Close 变成  Finish 点击 Finish 即可
-
 4. 搞定！
+
+# 重置
+
+1. 管理员模式运行IDM_6.4x_Crack_v19.7.exe
+2. 点击 ☰ 点击 RestoreCrack
+3. 提示Restore done.点击确定即可
