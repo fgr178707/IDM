@@ -23,8 +23,9 @@
 
 1. 安装 IDM
 2. 管理员模式运行IDM_6.4x_Crack_v19.7.exe
-3. 点击 Close 变成  Finish 点击 Finish 即可
-4. 搞定！
+3. 点击 Crack 变成Ok>RebootPC 重启电脑 并重新运行 IDM_6.4x_Crack_v19.7.exe      **没有提示Ok>RebootPC 直接跳过此步骤**  
+4. 点击 Crack 变成 NotPatched 点击 Finish
+5. 搞定！
 
 # 重置
 
