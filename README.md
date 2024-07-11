@@ -1,7 +1,10 @@
 ## 下载/如何使用？
 
-# 请尝试该文件夹内的其他激活方式[软件激活方案](https://github.com/fgr178707/IDM/tree/14c931094d43c977bacde6f36d365d90e127c192/%E8%BD%AF%E4%BB%B6%E6%BF%80%E6%B4%BB%E6%96%B9%E6%A1%88)
+-   请尝试该文件夹内的其他激活方式[软件激活方案](https://github.com/fgr178707/IDM/tree/14c931094d43c977bacde6f36d365d90e127c192/%E8%BD%AF%E4%BB%B6%E6%BF%80%E6%B4%BB%E6%96%B9%E6%A1%88)
+-   [IDM下载地址](https://www.internetdownloadmanager.com/download.html)
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
 ### 方法 1 - PowerShell（已失效）
 
 - 在 Windows 8.1/10/11 上，右键单击 Windows 开始菜单，然后选择 PowerShell 或终端（不是 CMD）。
