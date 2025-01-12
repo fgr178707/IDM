@@ -32,3 +32,47 @@
 1. 管理员模式运行IDM_6.4x_Crack_v19.7.exe
 2. 点击 ☰ 点击 RestoreCrack
 3. 提示Restore done.点击确定即可
+
+# 更多功能
+
+打开IDM<br> 
+禁用IDM<br>
+恢复破解<br>
+卸载IDM<br>
+IDM注册表<br>
+* IDM授权给<br>
+* IDM注册编辑<br>
+
+IDM工具<br>
+* IDM速度提升器<br>
+    * 应用更改<br>
+    * 重置更改<br>
+* IDM密码解密器<br>
+* IDM备份管理器<br>
+* IDM额外文件类型<br>
+* IDM工具栏皮肤<br>
+* IDM试用重置<br>
+
+退出<br>
+
+---
+Open IDM<br>
+Disable IDM<br>
+Restore Crack<br>
+Uninstall IDM<br>
+IDM Registry<br>
+* IDM LicensedTo<br>
+* IDM RegEdit<br>
+
+IDM Utility<br>
+* IDM Speed Booster<br>
+    * Apply changes<br>
+    * Reset changes<br>
+* IDM Password Decryptor<br>
+* IDM Backup Manager<br>
+* IDM Extra FileTypes<br>
+* IDM Toolbar Skins<br>
+* IDM Trial Reset<br>
+
+Exit<br>
+
